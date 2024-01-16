@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel and Explore</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d3eca7cd97.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        
+        <nav>
+            <div class="logo-n-title">
+                <img class="logo" src="resource/Images/Group 40071 (2).png" alt="" class="logo">
+                <h1 class="sec-title"><span style="color: #131318;">Travel and </span> <span
+                        style="color: #FF5400;">Explore</span></h1>
+            </div>
+            <div class="nav-btn">
+                <ul>
+                    <li class="list"><a href=""><span style="color: #FF5400;">Home</span></li></a>
+                    <li class="list"><a href="">Packages</a></li>
+                    <li class="list"><a href="">Testimonial</a></li>
+                    <li class="list" ><a href="">Blog</a></li>
+                    <li class="list"><a href="">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div class="ham">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <section class="banner">
+            <h1 class="banner-title">Explore Your Travel</h1>
+            <p class="banner-des">Feel the beauty of nature with your loving ones</p>
+            <form action="" class="input-n-btn">
+                <input class="where" type="text" placeholder="Where go">
+                <select class="when" id="">
+                    <option value="" disabled hidden selected>When</option>
+                    <option value="date">Date</option>
+                </select>
+                <select class="select" id="">
+                    <option value="" disabled hidden selected>Select Type</option>
+                    <option value="Single Person">Single Person</option>
+                    <option value="Multiple Person">Multiple Person</option>
+                </select>
+                <button class="primary-btn find"><i class="fa-solid fa-magnifying-glass"></i>  Find Now</button>
+            </form>
+        </section>
+
     </header>
+
+    <section class="popular-tour">
+        <div class="tour-content">
+            <h1 class="tour-title">Our Popular Tours</h1>
+            <p class="tour-des">Here are some of our Popilar-tours: </p>
+            <ul>
+                <li>Thailand</li>
+                <li>Maldives</li>
+                <li>Singapore</li>
+            </ul>
+            <button class="primary-btn">Read more</button>
+        </div>
+        <div class="tour-img">
+            <img src="resource/Images/Rectangle 4.png" alt="">
+        </div>
+    </section>
 
 
     <main>
@@ -21,4 +81,5 @@
 
     </footer>
 </body>
+
 </html>
