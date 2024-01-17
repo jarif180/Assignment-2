@@ -541,6 +541,8 @@ hr {
     height: 450px;
 }
 
+/* footer sec */
+
 footer {
     width: 1440px;
     height: 502px;
@@ -595,7 +597,7 @@ footer {
 }
 
 
-
+/* Media query */
 
 @media screen and (max-width: 600px) {
     .nav-btn {
@@ -619,6 +621,7 @@ footer {
         margin: 5px;
     }
 
+
     .banner {
         margin-top: 20px;
         width: 100%;
@@ -631,7 +634,7 @@ footer {
 
     .banner-title {
         margin-top: 30px;
-        font-size: 1.30rem;
+        font-size: 2.5rem;
         font-weight: 800;
     }
 
@@ -748,7 +751,7 @@ footer {
     }
 
 
-    /*  */
+    /* Newslatter */
     .newsletter {
         margin: 10px 10px;
         flex-direction: column;
@@ -779,7 +782,7 @@ footer {
         background: #FF5400;
         position: relative;
         bottom: 180px;
-        left: 260px;
+        left: 250px;
     }
 
     footer {
