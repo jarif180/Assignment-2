@@ -5,15 +5,19 @@ body {
 }
 
 /* header section */
-header {
-    margin: 50px 135px;
+.header {
+    padding: 5% 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     height: 3rem;
 }
 
-.ham{
+.ham {
     display: none;
 }
 
@@ -35,7 +39,7 @@ header {
 
 }
 
-.list {
+.list a {
     color: #424247;
     text-align: center;
     font-size: 1.15rem;
@@ -139,20 +143,225 @@ button {
 
 /* popular tour */
 
-.popular-tour{
+.popular-tour {
     display: flex;
     margin: 50px 360px;
     justify-content: space-between;
 
 }
 
-.tour-content{
+.tour-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 
+.tour-title {
+    color: #131318;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.tour-des {
+    margin-top: 0px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.tour-content ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.read-more {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #FF5400;
+}
+
+
+/* Destination */
+
+.destination {
+    margin: 100px 350px;
+    padding: 0px;
+}
+
+.img1 {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 5.png);
+
+}
+
+.img2 {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 8.png);
+
+}
+
+.img3 {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 6.png);
+}
+
+.img4 {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 7.png);
+}
+
+.img5 {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 9.png);
+}
+
+.img6 {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 11.png);
+}
+
+.img7 {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../resource/Images/Rectangle\ 10.png);
+}
+
+.row-1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.row-3 {
+    display: flex;
+    gap: 24px;
+}
+
+.place {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 130px auto;
+
+}
+
+.des-content {
+    text-align: center;
+}
+
+.des-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.des-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+/* why choose us */
+.why-choose-us {
+    margin: 100px 350px;
+    padding: 0px;
+}
+
+.why-choose-us-content {
+    text-align: center;
+}
+
+.wcu-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.wcu-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.card1 {
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card2 {
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card3 {
+    margin: 32px auto;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
 
 
 
@@ -176,7 +385,7 @@ button {
     }
 
     .ham {
-        
+
         margin-top: 15px;
         margin-right: 10px;
         display: block;
@@ -246,8 +455,59 @@ button {
         font-size: 1.3rem;
     }
 
-    .banner-des{
+    .banner-des {
         max-width: 300px;
+    }
+
+    /* popular tour */
+    .popular-tour {
+        flex-direction: column;
+        margin: auto;
+
+
+    }
+
+    .tour-img {
+        width: auto;
+        margin: auto;
+    }
+
+    /* destination */
+    .destination {
+        margin: auto;
+    }
+
+    .des-title {
+        color: #131318;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        flex-direction: column;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7 {
+        width: 100%;
+        margin: auto;
+        background-size: cover;
+    }
+
+    .why-choose-us {
+        margin: 20px auto;
+        padding: 0px;
+    }
+
+    .cards{
+        flex-direction: column;
     }
 
 
